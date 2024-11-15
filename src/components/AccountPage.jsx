@@ -23,8 +23,12 @@ function AccountPage() {
 
   return (
     <div style={styles.container}>
+       <h2 style={{fontSize:"17px",fontWeight:'bolder'}}>
+          Account <span> <i className="fa-solid fa-angle-down" style={{ color: '#000000', float: 'right' }}></i></span>
+        </h2>
       <div style={styles.header}>
-        <h2 style={styles.title}>Mrudul Mukundan</h2>
+       
+        <h3 style={styles.title}>Mrudul Mukundan</h3>
       </div>
       <div style={styles.profileSection}>
         <div style={styles.profileDetails}>
@@ -90,7 +94,7 @@ const styles = {
   },
   title: {
     fontSize: '21px',
-    marginBottom:'20px'
+    marginBottom: '10px'
   },
   icon: {
     fontSize: '18px',
@@ -134,7 +138,7 @@ const styles = {
   },
   privacyText: {
     fontSize: '16px',
-    marginRight:"10px",
+    marginRight: "16px",
     margin: 0, // Remove margin to eliminate extra space
   },
   toggleButton: {
